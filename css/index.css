@@ -11,3 +11,10 @@ h1 {
     font-size: 70px;
   
 }
+.logo {
+    padding-top:350px;
+    padding-left: 800px;
+}
+p {
+    text-align: center;
+}
