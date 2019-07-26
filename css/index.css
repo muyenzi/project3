@@ -25,3 +25,13 @@ h1 {
 p {
     text-align: center;
 }
+.mouse {
+    padding-top: 150px;
+    margin-left: 46%;
+}
+#about {
+    height: 900px;
+}
+h2{
+    text-align: center;
+}
