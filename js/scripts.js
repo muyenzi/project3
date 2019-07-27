@@ -24,3 +24,18 @@ $(document).ready(function(){
         $("#img3").show();
         });
 });
+$(document).ready(function (){
+    $("#submit").click(function(event){
+        var name=$("#name").val();
+        var email=$("#email").val();
+        var message=$("#message").val();
+        if((name!=="") || (email !== "") || (message !="")){
+            alert(name + " ,We have received your message.Thank you for reaching out to us");
+        }
+        else 
+        {
+            alert("Fill the form please");
+        }
+        event.preventDefault();
+        });
+});
