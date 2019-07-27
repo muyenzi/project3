@@ -13,7 +13,7 @@ Delani studio is studio that provides software related services.It has a team th
    *CSS
    *JAVA SCRIPT
    *JQUERY
-##BDD 
+## BDD 
   **Input**
   In this webpage;there is a form to fill to visitors who want to send us a message about what they want or any advice or compliment
   They have to enter their names(EXAMPLE :**RAISSA**) 
@@ -23,7 +23,7 @@ Delani studio is studio that provides software related services.It has a team th
   The user will be alerted that their message has been sent 
   If they user didn't fill the form he will be alerted to fill it.
 ## PROJECT LINK
-
+    
 ## SUPPORT AND CONTACT
  contact me : muyenziraissa@gmail.com
 
