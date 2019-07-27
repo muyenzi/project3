@@ -23,13 +23,13 @@ $(document).ready(function(){
         $("#product").hide();
         $("#img3").show();
         });
-});
-$(document).ready(function (){
+
+
     $("#submit").click(function(event){
         var name=$("#name").val();
         var email=$("#email").val();
         var message=$("#message").val();
-        if((name!=="") || (email !== "") || (message !="")){
+        if((name!=="") && (email !== "") && (message !="")){
             alert(name + " ,We have received your message.Thank you for reaching out to us");
         }
         else 

@@ -1,10 +1,28 @@
+/* Extra small devices(phomes ,600px and down) */
+@media only screen and (max-width:600px){
+}
+
+/* Small devices (potrait tables and large phones ,600px and up */
+@media only screen and (min-width:600px){    
+}
+
+/* Medium devices (landscape tables , 768px and up */
+@media only screen and (min-width:768px){
+}
+
+/* Large devices (laptop/desktops, 992px and up) */
+@media only screen and (min-width:992px){   
+}
+
+/* Extra large devices (extra big desktops, 1200 and up) */
+@media only screen and (min-width:1200px){    
+}
+
 body {
     margin: 0%;
     bottom: 0%;
     top: 0%;
 }
-
-
 #home {
     background-image: url("../images/assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
@@ -42,7 +60,7 @@ h2{
     height: 400px;
 }
 .portimage {
-
+    position:relative;
 }
 .portpara {
     position:absolute;
