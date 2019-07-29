@@ -1,3 +1,4 @@
+/** business logic */
 $(document).ready(function(){
     $("#img1").click(function(){
         $("#img1").hide();
@@ -24,21 +25,6 @@ $(document).ready(function(){
         $("#img3").show();
     });
 
-
-    $("#submit").click(function(event){
-        var userName=$("#name").val();
-        var userEmail=$("#email").val();
-        var userMessage=$("#message").val();
-        if((userName!=="") && (userEmail !== "") && (userMessage !="")){
-            alert(userName + " ,We have received your message.Thank you for reaching out to us");
-        }
-        else 
-        {
-            alert("Fill the form please");
-        }
-        event.preventDefault();
-    });
-    
 
     $("#one").mouseover(function(){
         $("#para1").show();
@@ -87,5 +73,21 @@ $(document).ready(function(){
      });
     $("#eight").mouseleave(function(){
         $("#para8").hide();
+    });
+
+
+    $("#submit").click(function(event){
+        var userName=$("#name").val();
+        var userEmail=$("#email").val();
+        var userMessage=$("#message").val();
+  /** user logic interface */
+        if((userName!=="") && (userEmail !== "") && (userMessage !="")){
+            alert(userName + " ,We have received your message.Thank you for reaching out to us");
+        }
+        else 
+        {
+            alert("Fill the form please");
+        }
+        event.preventDefault();
     });
 });
