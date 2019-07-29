@@ -38,53 +38,54 @@ $(document).ready(function(){
         }
         event.preventDefault();
     });
+    
 
-    $("#port1").mouseover(function(){
+    $("#one").mouseover(function(){
         $("#para1").show();
      });
-    $("#port1").mouseout(function(){
+    $("#one").mouseleave(function(){
         $("#para1").hide();
     });
-    $("#port2").mouseover(function(){
+    $("#two").mouseover(function(){
         $("#para2").show();
      });
-    $("#port2").mouseout(function(){
+    $("#two").mouseleave(function(){
         $("#para2").hide();
     });
-    $("#port3").mouseover(function(){
+    $("#three").mouseover(function(){
         $("#para3").show();
      });
-    $("#port3").mouseout(function(){
+    $("#three").mouseleave(function(){
         $("#para3").hide();
     });
-    $("#port4").mouseover(function(){
+    $("#four").mouseover(function(){
         $("#para4").show();
      });
-    $("#port4").mouseout(function(){
+    $("#four").mouseleave(function(){
         $("#para4").hide();
     });
-    $("#port5").mouseover(function(){
+    $("#five").mouseover(function(){
         $("#para5").show();
      });
-    $("#port5").mouseout(function(){
+    $("#five").mouseleave(function(){
         $("#para5").hide();
     });
-    $("#port6").mouseover(function(){
+    $("#six").mouseover(function(){
         $("#para6").show();
      });
-    $("#port6").mouseout(function(){
+    $("#six").mouseleave(function(){
         $("#para6").hide();
     });
-    $("#port7").mouseover(function(){
+    $("#seven").mouseover(function(){
         $("#para7").show();
      });
-    $("#port7").mouseout(function(){
+    $("#seven").mouseleave(function(){
         $("#para7").hide();
     });
-    $("#port8").mouseover(function(){
+    $("#eight").mouseover(function(){
         $("#para8").show();
      });
-    $("#port8").mouseout(function(){
+    $("#eight").mouseleave(function(){
         $("#para8").hide();
     });
 });
