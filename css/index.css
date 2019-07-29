@@ -59,11 +59,37 @@ h2{
     background-size: cover;
     height: 400px;
 }
-.portimage {
+#port1 ,#port2 ,#port3 ,#port4 {
     position:relative;
 }
-.portpara {
+#port5 ,#port6 ,#port7 ,#port8 {
+    position:relative;
+}
+#para1,#para2 ,#para3 ,#para4 {
     position:absolute;
+    top:50px;
+    bottom: 40;
+    text-align: center;
+    border: 3px solid white;
+    width: 230px;
+    height: 120px;
+    margin-left: 14px;
+    background-color: transparent;
+    padding-top:25px;
+    display: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+}
+#para5, #para6 ,#para7 ,#para8 {
+    position:absolute;
+    top:50px;
+    bottom: 40;
+    text-align: center;
+    border: 3px solid white;
+    width: 230px;
+    height: 120px;
+    margin-left: 14px;
+    padding-top:25px;
+    background-color: transparent;
+    display: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 }
 #contact {
     background-image: url("../images/assets/backgrounds/c_image.jpg");
