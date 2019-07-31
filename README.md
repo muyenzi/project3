@@ -23,7 +23,7 @@ Delani studio is studio that provides software related services.It has a team th
   The user will be alerted that their message has been sent 
   If they user didn't fill the form he will be alerted to fill it.
 ## PROJECT LINK
-    
+     https://muyenzi.github.io/project3/
 ## SUPPORT AND CONTACT
  contact me : muyenziraissa@gmail.com
 
